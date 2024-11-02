@@ -11,8 +11,9 @@ A simple REST API built using Go's `net/http` package for managing a "To-Do" lis
 ### Step 2: Set up and Run the Server
 Navigate to the project directory, then run the Go server:
 
-```bash
+```
 go run main.go
+```
 
 The server will start on localhost:8080.
 
