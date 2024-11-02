@@ -17,10 +17,9 @@ go run main.go
 
 The server will start on localhost:8080.
 
-API Endpoints and curl Commands
-Below are the available endpoints and examples of how to test them using curl.
+## Below are the available endpoints and examples of how to test them using curl.
 
-## 1. Create a New To-Do Item
+### 1. Create a New To-Do Item
 To create a new To-Do item, send a POST request to /todos with JSON data.
 
 ```
@@ -37,7 +36,7 @@ Expected Response:
 }
 ```
 
-## 2. Get All To-Do Items
+### 2. Get All To-Do Items
 To retrieve a list of all To-Do items, send a GET request to /todos.
 
 ```
@@ -56,7 +55,7 @@ Expected Response:
 ]
 ```
 
-## 3. Get a Specific To-Do Item by ID
+### 3. Get a Specific To-Do Item by ID
 To retrieve a specific To-Do item by ID, send a GET request to /todos/{id}.
 
 ```
@@ -72,7 +71,7 @@ Expected Response:
 }
 ```
 
-## 4. Update a To-Do Item by ID
+### 4. Update a To-Do Item by ID
 To update an existing To-Do item, send a PUT request to /todos/{id} with the updated data in JSON format.
 
 ```
@@ -88,7 +87,7 @@ Expected Response:
 }
 ```
 
-## 5. Delete a To-Do Item by ID
+### 5. Delete a To-Do Item by ID
 To delete a specific To-Do item, send a DELETE request to /todos/{id}.
 
 ```
